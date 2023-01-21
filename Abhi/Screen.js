@@ -1,10 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-export default function HELLO () {
+const Screen = () => {
   return (
     <View>
-      <Text>HELLO </Text>
+      <Text>Hello World</Text>
     </View>
   )
 }
+
+export default Screen;
